@@ -1,0 +1,10 @@
+pip install pyinstaller
+
+pyinstaller -F -w -i icon.ico clock.py
+
+    -F              all in 1 file
+    -w              removes terminal window
+    -i icon.ico     adds custom icon to .exe
+    clock.py        name of main py file
+
+=>>> python -m PyInstaller -F -w -i icon.ico clock.py
