@@ -1,0 +1,29 @@
+- color code                    :syntax on
+- number the line               :set number -> (disable every open)
+    => vim .vimrc => type:  syntax on 
+                            set number
+
+- Write and quit                :wq (Esc first)
+- Quit without save             :q  
+- Quit without save if override :q!
+
+- Save and exit                 shift + Z + Z
+- Stop (put in background)      ctrl Z
+- Foreground                    fg (terminal)
+    => Stop ctrl Z then vim .. instead of fg => R (shift + r) : Oopen
+                                                Q (shift + q) : Quit
+
+NORMAL:
+- h k j l               =>  Move around (not insert mode)
+- 10 + shift + G        =>  Move to line 10   
+- $ (shift + 4)         =>  Go to the end of line
+- ^ (shift + 6)         =>  Go to the begining of line
+- w                     =>  Jump to begining of next word
+- b                     =>  Jump to begining of previous word
+- u                     =>  Undo sth
+- ctrl + r              =>  Redo
+- d + d                 =>  Cut line
+- p                     =>  Paste
+- P (shift + p)         =>  Paste to the line after/ a line below
+- y + y                 =>  Copy line
+- 4 + y + y             =>  Copy 4 line

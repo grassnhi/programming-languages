@@ -1,0 +1,46 @@
+ls                          -> list all storages
+ls -l                       -> list all with in4
+ls -l \<directory>          -> list all in directory with in4 
+
+cd <path>                   -> Move to a directory using path 
+cd ..                       -> Move back
+cd ~                        -> Back to home directory
+
+pwd                         -> show working directory
+
+mkdir <directory>           -> Create directory
+rmdir <directory>           -> Remove directory
+
+echo "<sth>"                -> Print string "sth"
+echo $<var>                 -> Print value of variable var 
+echo $SHELL == which bash   -> Location
+
+which                       -> whether or not an app / a command is present of file system 
+                            => which bash / which htop
+which htop = command -v htop
+
+man <command>               -> Show in4 of command
+
+nano <file>                 -> Create-open or open file => nano script.sh
+touch <file>                -> Create a new file => touch script.sh
+rm <file>                   -> Remove file 
+
+sudo chmod +x <file>        -> make file executable => sudo chmod +x sctipt.sh
+
+./<file>                    -> run file => ./script.sh
+
+cat <file>                  -> show contents of file => cat script.sh
+
+date                        -> The date time
+
+env                         -> Variable already declared
+
+expr <a> <op> <p>           -> Print result of exprrsion a op b => expr 10 + 2 or expr 10 \* 2
+
+echo $?                     -> A / previous command succeed or not 
+
+mv <sth> <directory>        -> Move sth to directory
+
+find /etc -type f               -> Search for file in /etc directory
+find /etc -type f 2> /dev/null  -> search and redirect any error msg generate by command to /dev/null (like black hole -> wiped out)
+find /etc -type f > /dev/null   -> redirect everything to dev/null 
